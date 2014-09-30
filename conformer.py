@@ -55,6 +55,19 @@ class Conformer:
             raise ValueError    
     
     def readandparse(self, input_filename, output_filename):
+        """This method reads a CSV file, parse it, create the Gmail filters and write it out to a XML file.
+        
+        Parameters
+        ----------
+        input_filename : string
+            The filepath to the CSV file with email-addresses.
+        output_filename : string
+            The filepath to the XML file that we want to write to disc. If the file exist we overwrite it without warning!
+            
+        Returns
+        -------
+            
+        """        
         data = []
                 
         #Open the CSV file which contains a lot of email-addresses.

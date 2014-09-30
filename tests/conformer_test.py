@@ -16,7 +16,7 @@ class ConformerTestClass(unittest.TestCase):
 def main():
     unittest.main()
 
-#We can run our test by issuing: python numpyrunner_test.py
-#If we have nosetests available we can issue: nosetests numpyrunner_test.py -sv
+# We can run our test by issuing: python numpyrunner_test.py
+# If we have nosetests available we can issue: nosetests numpyrunner_test.py -sv
 if __name__ == "__main__":
     main()
